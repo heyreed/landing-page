@@ -1,5 +1,45 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    /*align-items: center;*/
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+}
+
+.hero-container {
+    max-width: 1400px;
+}
+
+.hero {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex-grow: 1;
+}
+
+.hero-right {
+    display: flex;
+    flex-grow: 1;
 }
