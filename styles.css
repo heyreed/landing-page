@@ -99,10 +99,10 @@ a {
 
 .hero-right {
     display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
     justify-content: center;
-    align-items: center;
-    background-color: gray;
-    flex-grow: 1;
 }
 
 .hero-image {
