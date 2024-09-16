@@ -63,7 +63,6 @@ a {
     flex-grow: 1;
     gap: 16px;
     font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 .hero-left {
@@ -110,4 +109,11 @@ a {
     justify-content: center;
     background-color: gray;
     height: 50%;
+}
+
+.info-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
 }
