@@ -132,7 +132,7 @@ p {
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-    gap: 16px;
+    gap: 48px;
 }
 
 .info-header h2 {
@@ -215,7 +215,7 @@ p {
     display: flex;
     flex-direction: column;
     flex-basis: 50%;
-    font-size: 24px;
+    font-size: 20px;
     color: #f9faf8;
     gap: 8px;
 }
