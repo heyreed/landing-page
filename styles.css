@@ -5,11 +5,18 @@ body {
     /*align-items: center;*/
     margin: 0;
     font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 a {
     text-decoration: none;
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
 }
 
 .nav-wrap {
@@ -181,4 +188,47 @@ a {
 .author {
     text-align: right;
     align-self: stretch;
+}
+
+.signup-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeeee;
+}
+
+.signup-container {
+    height: 250px;
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 16px;
+    background-color: rgb(74, 74, 228);
+    margin: 64px;
+    border-radius: 16px;
+    padding: 0 64px;
+}
+
+.signup-content {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    font-size: 24px;
+    color: #f9faf8;
+    gap: 8px;
+}
+
+.signup {
+    display: flex;
+    padding: 12px 20px;
+    border-radius: 8px;
+    box-shadow: none;
+    border: 1px solid #eeeeee;
+    background-color: rgb(74, 74, 228);
+    flex-shrink: 1;
+    font-weight: 600;
+    font-size: 18px;
+    color: #eeeeee;
 }
